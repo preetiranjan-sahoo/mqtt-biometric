@@ -1,0 +1,21 @@
+{
+  "name": "biometric-mqtt-server",
+  "version": "1.0.0",
+  "description": "Jasta Biometric Device MQTT Management Platform and Express API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "dependencies": {
+    "aedes": "^0.51.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mqtt": "^5.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

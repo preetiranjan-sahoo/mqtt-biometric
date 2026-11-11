@@ -1,0 +1,14 @@
+{
+  "name": "new-biometric-device",
+  "version": "1.0.0",
+  "description": "Biometric device MQTT platform and UI",
+  "scripts": {
+    "start": "nodemon server/src/index.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
